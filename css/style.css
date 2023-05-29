@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: rgb(255, 242, 200);
+    background-color: rgba(169, 137, 137, 0.384);
 }
 section,
 footer{
@@ -99,6 +99,9 @@ nav ul a:not(.botao)::after{
     margin: 18px 0;
 }
 /* História */
+.historia{
+    background-color:  rgba(189, 176, 176, 0.601);
+}
 .petatlo-historia{
     width: 70%;
     text-align: justify;
@@ -107,24 +110,32 @@ nav ul a:not(.botao)::after{
 }
 .petatlo-historia h3{
     text-align: center;
-    background-color: rgba(0, 153, 255, 0.209);
+    /* background-color: rgba(0, 153, 255, 0.209); */
     border-radius:  4px;
+    margin: 0px;
+    padding: 20px;
+}
+.petatlo-historia p{
+    padding: 0px 10px 50px 10px;
+
 }
 /* noticias */
 
 .noticias{
     text-align: center;
     display: flex;
+    background-color: rgba(214, 197, 197, 0.601);
+    padding: 60px 0px;
 }
 .petatlo-noticia{
     width: 70%;
     margin: auto;
+
 }
 .petatlo-noticia img{
     width: 220px;
 }
 .petatlo-noticia h3{
-    background-color: rgba(0, 153, 255, 0.209);
     margin-bottom: 10px ;
 }
 .petatlo-noticia a{
@@ -132,15 +143,17 @@ nav ul a:not(.botao)::after{
 }
 
 /*  MODALIDADES */
+
 .modalidade-1 .box{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(189, 176, 176, 0.601);
 }
 .color-1{
-    background-color: rgba(0, 149, 255, 0.343);
+    background-color: rgba(46, 28, 28, 0.456);
     /* border: 2px solid black; */
-    margin: 30px;
+    margin: 20px;
     padding: 30px;
     display: flex;
     text-align: justify;
@@ -172,7 +185,7 @@ nav ul a:not(.botao)::after{
 }
 
 .btn{
-    background-color: blue;
+    background-color: rgb(55, 31, 25);
     color: aliceblue;
     border-radius: 5px;
     cursor: pointer;
@@ -181,7 +194,7 @@ nav ul a:not(.botao)::after{
     margin: 30px 0px;
 }
 .btn:hover{
-    background-color: rgb(0, 0, 128);
+    background-color: rgba(80, 54, 47, 0.613);
 }
 
 /* medalhistas: */
@@ -191,7 +204,7 @@ nav ul a:not(.botao)::after{
 } 
 /* INTEGRANTES: */
 .integrantes{
-    background-color: rgb(197, 175, 124);
+    background-color: rgba(189, 176, 176, 0.601);
 }
 .integrantes h3{
     text-align: center;
@@ -239,7 +252,41 @@ nav ul a:not(.botao)::after{
 .integrantes .card-item:hover .integrantes-bio{
     color: white;
 }
+/* TABELA: */
+.medalistas{
+    .imagem{
+        vertical-align: middle;
+        width: 15%;
+        padding: 4px 0;
+    }
 
+    .imagem2{
+        vertical-align: middle;
+        width: 10%;
+        padding: 4px 0;
+    }
+
+    .ouro{
+        background-color: #f7f6a8;
+    }
+
+    .prata{
+        background-color: #dce5e5;
+    }
+
+    .total{
+        background-color: #ebefef;
+    }
+
+    .bronze{
+        background-color: #ffdab9;
+    }
+
+    .padrão{
+        background-color: #ffffff;
+    }
+
+}
 /* SOBRE O TRABALHO: */
 .sobre-o-trabalho{
     text-align: center;
@@ -253,7 +300,7 @@ nav ul a:not(.botao)::after{
 .petatlo-sobre h3{
     margin: 20px 0px;
     text-align: center;
-    background-color:  rgba(0, 153, 255, 0.209);
+    /* background-color:  rgba(0, 153, 255, 0.209); */
 }
 /* FOOTER: */
 footer{
